@@ -44,6 +44,64 @@
 			path = MainViewController;
 			sourceTree = "<group>";
 		};
+		4D0E7D6429E81FB900CE7D7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D0E7D6529E81FBF00CE7D7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D0E7D6629E81FC900CE7D7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DA88CE829E7C45400CEAF63 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D0E7D6729E81FDB00CE7D7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D0E7D6829E81FE700CE7D7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4D0E7D6929E81FEF00CE7D7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DA88CE629E7C45400CEAF63 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4D0E7D6A29E81FFA00CE7D7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D0E7D6B29E8200300CE7D7A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		4DA88CD129E7C44F00CEAF63 = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +121,16 @@
 		4DA88CDC29E7C44F00CEAF63 /* TrendingMovies-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				4D0E7D6B29E8200300CE7D7A /* Networking */,
+				4D0E7D6A29E81FFA00CE7D7A /* Extensions */,
+				4D0E7D6929E81FEF00CE7D7A /* Resources */,
+				4D0E7D6829E81FE700CE7D7A /* Classes */,
+				4D0E7D6729E81FDB00CE7D7A /* Controllers */,
+				4D0E7D6629E81FC900CE7D7A /* View */,
+				4D0E7D6529E81FBF00CE7D7A /* ViewModel */,
+				4D0E7D6429E81FB900CE7D7A /* Model */,
 				4D0E7D5F29E81BFC00CE7D7A /* MainViewController */,
 				4DA88CDD29E7C44F00CEAF63 /* AppDelegate.swift */,
-				4DA88CE629E7C45400CEAF63 /* Assets.xcassets */,
-				4DA88CE829E7C45400CEAF63 /* LaunchScreen.storyboard */,
 				4DA88CEB29E7C45400CEAF63 /* Info.plist */,
 			);
 			path = "TrendingMovies-MVVM";
