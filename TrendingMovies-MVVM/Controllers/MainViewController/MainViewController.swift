@@ -19,6 +19,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         self.configView()
+        viewModel.getTrendingMovies()
     }
 
     func configView() {
