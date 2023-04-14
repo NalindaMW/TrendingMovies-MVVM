@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		4D0E7D6229E81C1700CE7D7A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E7D6029E81C1700CE7D7A /* MainViewController.swift */; };
 		4D0E7D6329E81C1700CE7D7A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E7D6129E81C1700CE7D7A /* MainViewController.xib */; };
+		4D4245E529E879CA004439EA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4245E429E879CA004439EA /* MainViewModel.swift */; };
 		4DA88CDE29E7C44F00CEAF63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88CDD29E7C44F00CEAF63 /* AppDelegate.swift */; };
 		4DA88CE729E7C45400CEAF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA88CE629E7C45400CEAF63 /* Assets.xcassets */; };
 		4DA88CEA29E7C45400CEAF63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA88CE829E7C45400CEAF63 /* LaunchScreen.storyboard */; };
+		4DE8457929E829D4000D1D85 /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8457829E829D4000D1D85 /* MainViewController+TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D0E7D6029E81C1700CE7D7A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4D0E7D6129E81C1700CE7D7A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4D4245E429E879CA004439EA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		4DA88CDA29E7C44F00CEAF63 /* TrendingMovies-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrendingMovies-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA88CDD29E7C44F00CEAF63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA88CE629E7C45400CEAF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA88CE929E7C45400CEAF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA88CEB29E7C45400CEAF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE8457829E829D4000D1D85 /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			children = (
 				4D0E7D6029E81C1700CE7D7A /* MainViewController.swift */,
 				4D0E7D6129E81C1700CE7D7A /* MainViewController.xib */,
+				4DE8457829E829D4000D1D85 /* MainViewController+TableView.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -54,6 +59,7 @@
 		4D0E7D6529E81FBF00CE7D7A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4D4245E429E879CA004439EA /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -69,6 +75,7 @@
 		4D0E7D6729E81FDB00CE7D7A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4D0E7D5F29E81BFC00CE7D7A /* MainViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,7 +136,6 @@
 				4D0E7D6629E81FC900CE7D7A /* View */,
 				4D0E7D6529E81FBF00CE7D7A /* ViewModel */,
 				4D0E7D6429E81FB900CE7D7A /* Model */,
-				4D0E7D5F29E81BFC00CE7D7A /* MainViewController */,
 				4DA88CDD29E7C44F00CEAF63 /* AppDelegate.swift */,
 				4DA88CEB29E7C45400CEAF63 /* Info.plist */,
 			);
@@ -208,7 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA88CDE29E7C44F00CEAF63 /* AppDelegate.swift in Sources */,
+				4DE8457929E829D4000D1D85 /* MainViewController+TableView.swift in Sources */,
 				4D0E7D6229E81C1700CE7D7A /* MainViewController.swift in Sources */,
+				4D4245E529E879CA004439EA /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
