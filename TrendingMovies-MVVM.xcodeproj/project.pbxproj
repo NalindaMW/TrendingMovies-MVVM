@@ -13,6 +13,7 @@
 		4D4245E729E9D8E7004439EA /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4245E629E9D8E7004439EA /* NetworkConstant.swift */; };
 		4D4245E929E9DB0F004439EA /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4245E829E9DB0F004439EA /* APICaller.swift */; };
 		4D4245EB29E9DC41004439EA /* TrendingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4245EA29E9DC41004439EA /* TrendingMoviesModel.swift */; };
+		4D94F86529EAA57400AFE529 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94F86429EAA57400AFE529 /* Observable.swift */; };
 		4DA88CDE29E7C44F00CEAF63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88CDD29E7C44F00CEAF63 /* AppDelegate.swift */; };
 		4DA88CE729E7C45400CEAF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA88CE629E7C45400CEAF63 /* Assets.xcassets */; };
 		4DA88CEA29E7C45400CEAF63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA88CE829E7C45400CEAF63 /* LaunchScreen.storyboard */; };
@@ -26,6 +27,7 @@
 		4D4245E629E9D8E7004439EA /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		4D4245E829E9DB0F004439EA /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		4D4245EA29E9DC41004439EA /* TrendingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesModel.swift; sourceTree = "<group>"; };
+		4D94F86429EAA57400AFE529 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		4DA88CDA29E7C44F00CEAF63 /* TrendingMovies-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrendingMovies-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA88CDD29E7C44F00CEAF63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA88CE629E7C45400CEAF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		4D0E7D6829E81FE700CE7D7A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4D94F86429EAA57400AFE529 /* Observable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D94F86529EAA57400AFE529 /* Observable.swift in Sources */,
 				4DA88CDE29E7C44F00CEAF63 /* AppDelegate.swift in Sources */,
 				4D4245E929E9DB0F004439EA /* APICaller.swift in Sources */,
 				4D4245EB29E9DC41004439EA /* TrendingMoviesModel.swift in Sources */,
