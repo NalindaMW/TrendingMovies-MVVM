@@ -17,6 +17,9 @@
 		4DA88CDE29E7C44F00CEAF63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA88CDD29E7C44F00CEAF63 /* AppDelegate.swift */; };
 		4DA88CE729E7C45400CEAF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA88CE629E7C45400CEAF63 /* Assets.xcassets */; };
 		4DA88CEA29E7C45400CEAF63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA88CE829E7C45400CEAF63 /* LaunchScreen.storyboard */; };
+		4DE54DE029EBC55F00076ECA /* MainMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE54DDE29EBC55F00076ECA /* MainMovieCell.swift */; };
+		4DE54DE129EBC55F00076ECA /* MainMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE54DDF29EBC55F00076ECA /* MainMovieCell.xib */; };
+		4DE54DE329EBC80300076ECA /* MovieTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE54DE229EBC80300076ECA /* MovieTableCellViewModel.swift */; };
 		4DE8457929E829D4000D1D85 /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8457829E829D4000D1D85 /* MainViewController+TableView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,9 @@
 		4DA88CE629E7C45400CEAF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA88CE929E7C45400CEAF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA88CEB29E7C45400CEAF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE54DDE29EBC55F00076ECA /* MainMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMovieCell.swift; sourceTree = "<group>"; };
+		4DE54DDF29EBC55F00076ECA /* MainMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMovieCell.xib; sourceTree = "<group>"; };
+		4DE54DE229EBC80300076ECA /* MovieTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableCellViewModel.swift; sourceTree = "<group>"; };
 		4DE8457829E829D4000D1D85 /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				4D4245E429E879CA004439EA /* MainViewModel.swift */,
+				4DE54DE229EBC80300076ECA /* MovieTableCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -76,6 +83,7 @@
 		4D0E7D6629E81FC900CE7D7A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4DE54DDD29EBC52600076ECA /* MainMovieCell */,
 				4DA88CE829E7C45400CEAF63 /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -154,6 +162,15 @@
 			path = "TrendingMovies-MVVM";
 			sourceTree = "<group>";
 		};
+		4DE54DDD29EBC52600076ECA /* MainMovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				4DE54DDE29EBC55F00076ECA /* MainMovieCell.swift */,
+				4DE54DDF29EBC55F00076ECA /* MainMovieCell.xib */,
+			);
+			path = MainMovieCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,6 +232,7 @@
 				4DA88CEA29E7C45400CEAF63 /* LaunchScreen.storyboard in Resources */,
 				4D0E7D6329E81C1700CE7D7A /* MainViewController.xib in Resources */,
 				4DA88CE729E7C45400CEAF63 /* Assets.xcassets in Resources */,
+				4DE54DE129EBC55F00076ECA /* MainMovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D94F86529EAA57400AFE529 /* Observable.swift in Sources */,
+				4DE54DE029EBC55F00076ECA /* MainMovieCell.swift in Sources */,
 				4DA88CDE29E7C44F00CEAF63 /* AppDelegate.swift in Sources */,
 				4D4245E929E9DB0F004439EA /* APICaller.swift in Sources */,
+				4DE54DE329EBC80300076ECA /* MovieTableCellViewModel.swift in Sources */,
 				4D4245EB29E9DC41004439EA /* TrendingMoviesModel.swift in Sources */,
 				4DE8457929E829D4000D1D85 /* MainViewController+TableView.swift in Sources */,
 				4D0E7D6229E81C1700CE7D7A /* MainViewController.swift in Sources */,
