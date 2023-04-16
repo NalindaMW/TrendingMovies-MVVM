@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="TrendingMovies_MVVM" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="zuG-gw-M0T" id="dPB-PQ-X19"/>
                 <outlet property="tableView" destination="aNY-1d-vIe" id="zOu-Ca-OHj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -23,16 +24,21 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="zuG-gw-M0T">
+                    <rect key="frame" x="197" y="438" width="20" height="20"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="aNY-1d-vIe" secondAttribute="bottom" id="8Nf-Ir-OLX"/>
+                <constraint firstItem="zuG-gw-M0T" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Jwl-tC-KYA"/>
                 <constraint firstItem="aNY-1d-vIe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="YzU-7g-9BW"/>
                 <constraint firstItem="aNY-1d-vIe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="nBa-98-IIL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aNY-1d-vIe" secondAttribute="trailing" id="srf-b9-Rj1"/>
+                <constraint firstItem="zuG-gw-M0T" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zPR-DO-PyN"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="107"/>
+            <point key="canvasLocation" x="137.68115942028987" y="106.47321428571428"/>
         </view>
     </objects>
     <resources>
