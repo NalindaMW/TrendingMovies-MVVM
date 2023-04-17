@@ -60,4 +60,11 @@ class MainViewController: UIViewController {
         }
     }
 
+    func openDetailUI(movieId: Int) {
+        guard let movie = viewModel.retrieveMovie(with: movieId) else { return }
+        
+        let detailViewModel = DetailMovieViewModel(movie: movie)
+        let detailViewController = DetailMovieViewController(viewModel: detailViewModel)
+        self.navigationController?.pushViewController(detailViewController, animated: true)
+    }
 }
